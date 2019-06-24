@@ -16,7 +16,8 @@ public class UnDoableList implements ListIntf<String> {
     }
 
     @Override
-    public void remove(String value) {
+    public String remove(final String value) {
+        return "";
     }
 
     @Override
